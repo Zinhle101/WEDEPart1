@@ -223,6 +223,17 @@
 
     </footer>
 
+    <script>
+        document.querySelector(".booking-form").addEventListener("submit", function(event) 
+        {
+        event.preventDefault();
+
+        alert("Thank you for your booking request! Jojo Beauty Bar will contact you to confirm your appointment.");
+
+        this.reset();
+        });
+    </script>
+
 </body>
 
 </html>
